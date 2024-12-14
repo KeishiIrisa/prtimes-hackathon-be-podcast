@@ -1,9 +1,12 @@
+import os
+
 from fastapi import FastAPI, status, HTTPException
 from fastapi.responses import JSONResponse, FileResponse
 
 from article_to_podcast.openai_utils import generate_podcast_from_article
 from article_to_podcast.models import GeneratePodcastRequest
 from article_to_podcast.firebase_utils import get_all_podcasts, get_podcasts_by_press_id
+
 
 app = FastAPI()
     
