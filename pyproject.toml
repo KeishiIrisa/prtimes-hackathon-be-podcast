@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "article-to-podcast"
+version = "0.1.0"
+description = ""
+authors = ["KeishiIrisa <keishi.irisa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "article_to_podcast"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+pydantic = "^2.10.3"
+openai = "^1.57.4"
+python-dotenv = "^1.0.1"
+pydub = "^0.25.1"
+firebase-admin = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
