@@ -2,6 +2,7 @@ import os
 
 from fastapi import FastAPI, status, HTTPException
 from fastapi.responses import JSONResponse, FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 from article_to_podcast.openai_utils import generate_podcast_from_article
 from article_to_podcast.models import GeneratePodcastRequest
@@ -9,7 +10,19 @@ from article_to_podcast.firebase_utils import get_all_podcasts, get_podcasts_by_
 
 
 app = FastAPI()
-    
+
+origins = [
+    "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+  
 
 @app.get("/")
 def read_root():

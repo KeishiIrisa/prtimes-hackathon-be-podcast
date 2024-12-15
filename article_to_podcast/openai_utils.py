@@ -13,6 +13,7 @@ from article_to_podcast.firebase_utils import save_new_podcast
 load_dotenv()
 
 api_key = os.getenv("OPENAI_API_KEY")
+prompt = os.getenv("PROMPT")
 
 client = OpenAI(api_key=api_key)
     
@@ -20,7 +21,7 @@ def generate_podcast_from_article(article: str, press_id: int) -> str:
     completion = client.beta.chat.completions.parse(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "あなたは、与えられた記事の文章を受け取り、それを元に聞き手の興味をそそるようなポッドキャストの原稿を作成してください。登場人物は司会者のケイシ、登壇者のクアン、アヤカの3人です。それぞれのセリフと名前をscriptに格納すること。原稿は3人が話し合う形式にすること。合計で100文字以内にすること"},
+            {"role": "system", "content": prompt},
             {"role": "user", "content": article}
         ],
         response_format=Podcast,
