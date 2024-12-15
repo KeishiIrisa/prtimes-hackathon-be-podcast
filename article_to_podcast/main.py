@@ -13,6 +13,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
+    "https://prtimes-hackathon-fe.vercel.app",
 ]
 
 app.add_middleware(
@@ -54,3 +55,4 @@ async def generate_podcasts(request: GeneratePodcastRequest):
         return JSONResponse(content=new_podcast, status_code=status.HTTP_201_CREATED)
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
