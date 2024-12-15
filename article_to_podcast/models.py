@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import List, Literal
 
 class GeneratePodcastRequest(BaseModel):
-    press_id: int
+    press_id: str
     uid: str
     article: str
 
@@ -14,4 +14,4 @@ class Podcast(BaseModel):
     title: str
     scripts: List[Script]
     summary: str
-    press_id: int
+    press_id: str
