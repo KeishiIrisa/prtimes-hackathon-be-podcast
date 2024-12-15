@@ -40,7 +40,7 @@ async def get_podcasts():
 
 
 @app.get("/podcasts/{press_id}")
-async def get_podcasts_by_press_id_endpoint(press_id: int):
+async def get_podcasts_by_press_id_endpoint(press_id: str):
     try:
         podcasts = get_podcasts_by_press_id(press_id)
         return JSONResponse(content=podcasts, status_code=200)
