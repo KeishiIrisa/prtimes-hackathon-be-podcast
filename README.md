@@ -24,6 +24,18 @@ We propose two solutions:
 1. **Automated Press Release Generation**: Based on their past social network posts (e.g., X), we can generate press releases automatically. Social networks are effective free marketing tools, and even if enterprises haven't tried press releases, they are likely to have posted on social networks.
 2. **Automated Podcast Generation**: Using the auto-generated press releases from the first solution, we can create podcasts. Podcasts are a significant marketing strategy, with many end users, including consumers and media personnel, listening to them. This new approach—from podcast to press release—will help more people notice their press releases.
 
+## Presentation Slides
+[prtimes-hackathon-teamf-rihaq.pdf](https://github.com/user-attachments/files/18144251/prtimes-hackathon-teamf-rihaq.pdf)
+
+## Product
+### Posts used from X
+https://x.com/heralbony/status/1866449260667183316
+### Generated Press Release
+
+### Generated Podcast Example
+https://storage.googleapis.com/prtimes-podcasts.firebasestorage.app/podcasts/HERALBONY%20Art%20Prize%202025%20%E7%89%B9%E9%9B%86.mp3
+
+
 ## Tech Stack
 
 - **Front-end**: https://github.com/AyakaYoshida501/prtimes-hackathon-fe
