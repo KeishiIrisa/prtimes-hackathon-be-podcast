@@ -25,14 +25,14 @@ We propose two solutions:
 2. **Automated Podcast Generation**: Using the auto-generated press releases from the first solution, we can create podcasts. Podcasts are a significant marketing strategy, with many end users, including consumers and media personnel, listening to them. This new approach—from podcast to press release—will help more people notice their press releases.
 
 ## Presentation Slides
-[prtimes-hackathon-teamf-rihaq.pdf](https://github.com/user-attachments/files/18144251/prtimes-hackathon-teamf-rihaq.pdf)
+[Download from here](https://github.com/user-attachments/files/18144251/prtimes-hackathon-teamf-rihaq.pdf)
 
 ## Product
-### Posts used from X
+### ・Posts used from X
 https://x.com/heralbony/status/1866449260667183316
-### Generated Press Release
+### ・Generated Press Release Example
 
-### Generated Podcast Example
+### ・Generated Podcast Example
 https://storage.googleapis.com/prtimes-podcasts.firebasestorage.app/podcasts/HERALBONY%20Art%20Prize%202025%20%E7%89%B9%E9%9B%86.mp3
 
 
