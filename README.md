@@ -30,7 +30,12 @@ https://x.com/heralbony/status/1866449260667183316
 ### ・Generated Press Release Example
 
 ### ・Generated Podcast Example
-https://storage.googleapis.com/prtimes-podcasts.firebasestorage.app/podcasts/HERALBONY%20Art%20Prize%202025%20%E7%89%B9%E9%9B%86.mp3
+https://github.com/user-attachments/assets/a71b49ce-fe34-40b1-9812-fdcc4013060c
+
+
+
+
+
 
 
 ## Tech Stack
